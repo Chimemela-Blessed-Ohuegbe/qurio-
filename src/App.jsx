@@ -1,33 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [questions, setQuestions] = useState([])
+  const [loading, setLoading] = useState(true)
 
+  // useEffect(()=>{
+  //   fetch("https://the-trivia-api.com/v2/questions")
+  //   .then(res => res.json())
+  //   .then((data) => {
+  //     setQuestions(data)
+  //     setLoading(false)
+  //     console.log(data)
+  //   })
+  //   .catch((err) => {
+  //     console.error(err)
+  //     setLoading(false)
+  //   })
+  // },[])
+
+  // if (loading){
+  //   return <p>Loading</p>
+  // }
+
+  // const decodeHtml = (str) =>{
+  //   const newText = document.createElement("textarea")
+  //   newText.innerHTML = str
+  //   return newText.value
+  // }
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="container">
+        <div className="icon-bar">icons</div>
+        <div className="sidebar">s</div>
+        <div className="navbar">n</div>
+        <div className="hero">h</div>
+        <div className="stats">s</div>
+        <div className="search-category">sc</div>
+        <div className="main"></div>
+
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      
     </>
   )
 }
