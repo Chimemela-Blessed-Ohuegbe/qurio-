@@ -1,6 +1,15 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 
+// ***********COMPONENTS************
+import Iconbar from './Components/Iconbar/Iconbar'
+import Sidebar from './Components/Sidebar/Sidebar'
+import Navbar from './Components/Navbar/Navbar'
+import Hero from './Components/Hero/Hero'
+import Stats from './Components/Stats/Stats'
+import Categories from './Components/Categories/Cat'
+import Main from './Components/Main/Main'
+
 function App() {
   const [questions, setQuestions] = useState([])
   const [loading, setLoading] = useState(true)
@@ -31,14 +40,13 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className="icon-bar">icons</div>
-        <div className="sidebar">s</div>
-        <div className="navbar">n</div>
-        <div className="hero">h</div>
-        <div className="stats">s</div>
-        <div className="search-category">sc</div>
-        <div className="main"></div>
-
+        <Iconbar/>
+        <Sidebar/>
+        <Navbar/>
+        <Hero/>
+        <Stats/>
+        <Categories/>
+        <Main/>
       </div>
       
     </>

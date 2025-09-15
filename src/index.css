@@ -4,6 +4,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins";
+  list-style: none;
+  /* color: #000; */
 }
 
 body{
@@ -17,6 +19,14 @@ body{
   align-items: center;
   justify-content: center;
   background: #000;
+  /* background: white; */
+  /* background: white; */
   /* color: white; */
   overflow: hidden;
+}
+
+button{
+  padding: .45rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
 }
