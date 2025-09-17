@@ -64,6 +64,16 @@ const Main = () => {
                         <button>Play</button>
                     </div>
                 </div>
+                <div className="card" data-value = {"👋Mid"}>
+                    <div className="card-img">
+                        <img src={Images.anime} alt="" />
+                    </div>
+                    <div className="card-info">
+                        <h3><i class="fa-solid fa-laptop-code"></i>Anime</h3>
+                        <p>Test your knowledge about Anime!</p>
+                        <button>Play</button>
+                    </div>
+                </div>
             </div>
         </div>
      );
