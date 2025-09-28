@@ -30,3 +30,10 @@ button{
   border-radius: 20px;
   cursor: pointer;
 }
+
+/* ***********RESPONSIVENES********** */
+@media (min-width: 1000px){
+  #root{
+    /* background: white; */
+  }
+}
