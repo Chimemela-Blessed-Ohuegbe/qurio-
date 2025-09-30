@@ -15,7 +15,7 @@
             "i s sb sb"
               "i s m m";}
  
-body::after{
+body::before{
   position: absolute;
   top: -2rem;
   right: 5rem;
@@ -24,8 +24,10 @@ body::after{
   height: 15rem;
   border-radius: 50%;
   background: linear-gradient(pink,crimson,red);
+  background: linear-gradient(lime,green,darkgreen);
+  background: linear-gradient(yellow,rgb(38, 39, 0));
 }
-body::before{
+body::after{
   position: absolute;
   top: 6rem;
   right:15rem;
@@ -34,7 +36,7 @@ body::before{
   height: 15rem;
   border-radius: 50%;
   border: 5px solid green;
-  background: linear-gradient(-45deg,lightblue,rgb(13, 0, 197));
+  background: linear-gradient(-45deg,rgb(60, 0, 128),purple,rgb(161, 39, 243));
 } 
 
 /* ,.hero,.navbar,.search-category,.main,.stats,.search-box */

@@ -6,7 +6,7 @@ const Sidebar = () => {
           <div className="top">
              <div className="logo">
                 <i class="fa-solid fa-brain"></i>
-                <h3>Qurio</h3>
+                <h3>Lingtastic!</h3>
             </div>
             <div className="rand-quiz">
               <button>
@@ -17,9 +17,9 @@ const Sidebar = () => {
           <div className="middle">
               <div className="nav-links">
                 <div className="title"><h6>GENERAL</h6></div>
-                <li><i class="fa-regular fa-house"></i>Home</li>
-                <li><i class="fa-regular fa-compass"></i>Explore</li>
-                <li><i class="fa-solid fa-medal"></i>Activity</li>
+                <li className="active"><i class="fa-regular fa-house"></i>Exams</li>
+                <li><i class="fa-regular fa-compass"></i>Vocab</li>
+                <li><i class="fa-solid fa-medal"></i>Grammar</li>
               </div>
               <div className="nav-links">
                 <div className="title"><h6>OTHERS</h6></div>

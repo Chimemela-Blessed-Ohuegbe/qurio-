@@ -6,7 +6,7 @@
     padding: .5rem 1rem;
     gap: .45rem;
     color: rgba(209, 209, 209, 0.678);
-
+    color: #000;
 }
 
 .search-category .title{

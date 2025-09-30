@@ -4,17 +4,17 @@ const Categories = () => {
         <div className="search-category">
             <div className="title">
                 <div className="dot"></div>
-                <h6>CATEGORIES</h6>
+                <h6>POPULAR EXAMS</h6>
             </div>
             <div className="cat-boxes">
-                <button><i class="fa-solid fa-khanda"></i>Anime</button>
-                <button><i class="fa-solid fa-calculator"></i>Maths</button>
-                <button><i class="fa-solid fa-volleyball"></i>Sports</button>
-                <button><i class="fa-solid fa-laptop-code"></i>Computers</button>
-                <button><i class="fa-solid fa-car"></i>Vehicles</button>
-                <button><i class="fa-solid fa-music"></i>Music</button>
-                <button><i class="fa-solid fa-laptop-code"></i>Easy</button>
-                <button><i class="fa-solid fa-car"></i>Medium</button>
+                <button><i class="fa-solid fa-khanda"></i>Horen</button>
+                <button><i class="fa-solid fa-calculator"></i>B1</button>
+                <button><i class="fa-solid fa-volleyball"></i>Lesen</button>
+                <button><i class="fa-solid fa-laptop-code"></i>Schreiben</button>
+                <button><i class="fa-solid fa-car"></i>A1</button>
+                <button><i class="fa-solid fa-music"></i>A2</button>
+                <button><i class="fa-solid fa-laptop-code"></i>Sprechen</button>
+                <button><i class="fa-solid fa-car"></i>B2</button>
                 <button><i class="fa-solid fa-music"></i>Hard</button>
             </div>
         </div>

@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding: 1rem .5rem;
     color: rgba(255, 255, 255, 0.89);
+    color: #000;
    
 }
 
@@ -22,8 +23,7 @@
 }
 
 button,.cat-boxes button:hover{
-  background: linear-gradient(-45deg,lightblue,rgb(13, 0, 197));
-    color: rgb(0, 0, 0);
+background: linear-gradient(-45deg,rgb(60, 0, 128),purple,rgb(161, 39, 243));    color: rgb(0, 0, 0);
     border: 1px solid rgb(0, 0, 0);
     display: flex;
     align-items: center;
@@ -61,6 +61,7 @@ button:hover{
     justify-content: start;
     align-items: start;
     gap: .75rem;
+    color: #000;
 }
 
 .nav-links li{
@@ -71,8 +72,8 @@ button:hover{
 }
 
 
-.nav-links li:hover{
-    background: linear-gradient(lightblue,blue);
+.nav-links li:hover,.active{
+  background: linear-gradient(-45deg,rgb(60, 0, 128),purple);
     background-clip: text;
     color: transparent;
     cursor: pointer;
@@ -93,7 +94,7 @@ button:hover{
 .dot{
     width: .5rem;
     height: .5rem;
-  background: linear-gradient(-45deg,lightblue,rgb(13, 0, 197));
+  background: linear-gradient(-45deg,rgb(60, 0, 128),purple);
     border: 1px solid #000;
     border-radius: 50%;
 }
